@@ -37,6 +37,28 @@ func NativeName(code string) string {
 	return FromCode(code).NativeName
 }
 
+// CodeForName returns the language code for given name.
+func CodeForName(name string) string {
+	for code, lang := range Languages {
+		if lang.Name == name {
+			return code
+		}
+	}
+
+	return ""
+}
+
+// CodeForNativeName returns the language code for given native name.
+func CodeForNativeName(name string) string {
+	for code, lang := range Languages {
+		if lang.NativeName == name {
+			return code
+		}
+	}
+
+	return ""
+}
+
 // ValidCode returns true if the given code is a valid ISO 639-1 language code.
 // The code must be passed in lowercase.
 func ValidCode(code string) bool {
