@@ -3,7 +3,7 @@
 [![GoDoc](https://godoc.org/github.com/emvi/iso-639-1?status.svg)](https://godoc.org/github.com/emvi/iso-639-1)
 [![CircleCI](https://circleci.com/gh/emvi/iso-639-1.svg?style=svg)](https://circleci.com/gh/emvi/iso-639-1)
 [![Go Report Card](https://goreportcard.com/badge/github.com/emvi/iso-639-1)](https://goreportcard.com/report/github.com/emvi/iso-639-1)
-<a href="https://discord.gg/5UWdRh"><img src="https://img.shields.io/discord/739184135649886288?logo=discord" alt="Chat on Discord"></a>
+<a href="https://discord.gg/fAYm4Cz"><img src="https://img.shields.io/discord/739184135649886288?logo=discord" alt="Chat on Discord"></a>
 
 List of all ISO 639-1 language names, native names and two character codes as well as functions for convenient access.
 The lists of all names and codes (`Codes`, `Names`, `NativeNames`, `Languages`) are build in the init function for quick read access. 
