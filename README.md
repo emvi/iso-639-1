@@ -1,6 +1,6 @@
 # ISO 639-1
 
-[![GoDoc](https://godoc.org/github.com/emvi/iso-639-1?status.svg)](https://godoc.org/github.com/emvi/iso-639-1)
+[![Go Reference](https://pkg.go.dev/badge/github.com/emvi/iso-639-1?status.svg)](https://pkg.go.dev/github.com/emvi/iso-639-1?status)
 [![CircleCI](https://circleci.com/gh/emvi/iso-639-1.svg?style=svg)](https://circleci.com/gh/emvi/iso-639-1)
 [![Go Report Card](https://goreportcard.com/badge/github.com/emvi/iso-639-1)](https://goreportcard.com/report/github.com/emvi/iso-639-1)
 <a href="https://discord.gg/fAYm4Cz"><img src="https://img.shields.io/discord/739184135649886288?logo=discord" alt="Chat on Discord"></a>
