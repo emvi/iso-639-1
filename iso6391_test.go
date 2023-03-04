@@ -1,6 +1,8 @@
 package iso6391
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestFromCode(t *testing.T) {
 	lang := FromCode("en")
@@ -19,6 +21,12 @@ func TestFromCode(t *testing.T) {
 
 	if lang.Name != "" || lang.NativeName != "" {
 		t.Fatalf("Expected no valid language, but was: %v", lang)
+	}
+
+	lang = FromCode("an")
+
+	if lang.Name != "Aragonese" || lang.NativeName != "Aragonés" {
+		t.Fatalf("Expected Aragonese, but was: %v", lang)
 	}
 }
 
